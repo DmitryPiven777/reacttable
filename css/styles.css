@@ -1,0 +1,529 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol, li{
+	list-style: none
+}
+
+body {
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+} 
+
+/* меню */
+.site-header{
+	padding: 32px 0;
+}
+
+.menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #303030;
+}
+
+.menu a:hover{
+	color: #19744C;
+}
+
+.menu-bal{
+	font-size: 1.44rem;
+	font-weight: 700;
+}
+
+.menu-yoga{
+	font-size: 0.83333rem;
+}
+
+.menu-main{
+	display: flex;
+}
+
+.menu-main li{
+	padding: 8px 16px;
+}
+/* меню */
+
+
+/* главный блок */
+
+.main{
+	padding: 32px 0;
+}
+
+.main-text{
+	width: 800px;
+	margin: 0 auto;
+	padding: 32px 0;
+}
+
+h1{
+	font-size: 2.98598rem;
+    letter-spacing: normal;
+    line-height: 1.125;
+	font-weight: 700;
+	text-align: center;
+	color: #303030;
+}
+
+.main-photo{
+	text-align: center;
+	padding: 32px 0;
+}
+
+.main-photo img{
+	width: 100%;
+	height: 100%
+}
+
+.main-down{
+	width: 700px;
+	margin: 0 auto;
+	padding: 32px 0;
+}
+
+.main-down p{
+	font-size: 24px;
+	line-height: 1.38889;
+	color: #303030;
+	text-align: center;
+}
+/* главный блок */
+
+
+/* курсы */
+.our-classes{
+	margin-bottom: 100px
+}
+
+.classes{
+	margin: 0 auto;
+	display: flex;
+}
+
+.classes-text{
+	width: 50%;
+	padding-right: 10px
+}
+
+.classes-text h2{
+	font-size: 1.728rem;
+    letter-spacing: normal;
+    line-height: 1.125;
+}
+
+.classes-text p{
+	margin-top: 32px;
+    margin-bottom: 32px;
+	font-size: 20px;
+	line-height: 1.5;
+    font-weight: normal;
+    color: #303030;
+    text-align: left;
+	padding-bottom: 50px
+}
+
+.classes-photo{
+	width: 50%;
+	padding-left: 10px
+}
+
+.classes-photo img{
+	width: 100%;
+	max-width: 512px;
+}
+
+.btn-classes{
+	align-items: center;
+	margin-top: 10px
+}
+
+.btn-classes a{
+	background: #19744C;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font: Open Sans;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 33px;
+	border-radius: 4px;
+}
+
+.btn-classes a:hover{
+	background: #145f3e;
+}
+/* курсы */
+
+/* блог */
+.blog{
+	background: url(../images/acro-yoga-active.jpg)center no-repeat fixed;
+	width: 100%;
+	margin-bottom: 100px;	
+}
+
+.blog-text{
+	width: 750px;
+	margin: 0 auto;
+	padding: 200px 0 100px 0;
+}
+
+.blog-text p{
+	font-size: 1.728rem;
+	line-height: 1.38889;
+	color: #fff;
+	text-align: center;
+	align-items: center
+}
+
+.btn-blog{
+	text-align: center;
+	padding-bottom: 200px
+}
+
+.btn-blog a{
+	background: #fff;
+    color: #303030;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font: Open Sans;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 33px;
+	border-radius: 4px;
+}
+
+.btn-blog a:hover{
+	color: #fff;
+}
+/* блог */
+
+/* учителя */
+.our-teachers{
+	padding-bottom: 100px
+}
+
+.teachers{
+	margin: 0 auto;
+	display: flex;
+}
+
+.teachers-text{
+	width: 50%;
+	padding-right: 10px
+}
+
+.teachers-text h2{
+	font-size: 1.728rem;
+    letter-spacing: normal;
+    line-height: 1.125;
+}
+
+.teachers-text p{
+	margin-top: 32px;
+    margin-bottom: 32px;
+	font-size: 20px;
+	line-height: 1.5;
+    font-weight: normal;
+    color: #303030;
+    text-align: left;
+	padding-bottom: 50px
+}
+
+.teachers-photo{
+	width: 50%;
+	padding-left: 10px
+}
+
+.teachers-photo img{
+	width: 100%;
+	max-width: 512px;
+}
+
+.btn-teachers{
+	align-items: center;
+	margin-top: 10px
+}
+
+.btn-teachers a{
+	background: #19744C;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font: Open Sans;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 33px;
+	border-radius: 4px;
+}
+
+.btn-teachers a:hover{
+	background: #145f3e;
+}
+/* учителя */
+
+/* оплата */
+.payment{
+	background-color: #f0f0f0;
+}
+
+.payment-items{
+	display: flex;
+}
+
+.payment-item{
+	margin: 100px 0 100px 0;
+	width: calc(100%/3)
+}
+
+.payment-item:hover{
+	color: #19744C;
+}
+
+.payment-item h5{
+	text-align: center;
+	font-size: 1.2rem;
+    letter-spacing: normal;
+    line-height: 1.125;
+}
+
+.payment-item h6{
+	text-align: center;
+	font-size: 1.728rem;
+	line-height: 1.38889;
+	margin: 32px 0;
+}
+
+.payment-item p{
+	text-align: center;
+	margin-bottom: 45px
+}
+
+.btn-payment{
+	text-align: center;
+	margin-top: 10px
+}
+
+.btn-payment a{
+	background: #19744C;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font: Open Sans;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 33px;
+	border-radius: 4px;
+}
+
+.btn-payment a:hover{
+	background: #145f3e;
+}
+/* оплата */
+
+/* футер */
+.footer{
+	background-color: black;
+	color: #fff
+}
+
+.footer-items{
+	display: flex;
+}
+
+.footer-item{
+	width: calc(100%/3);
+	margin: 100px 0 100px 0;	
+}
+
+.footer-item h2{
+	font-size: 2.48832rem;
+    letter-spacing: normal;
+    line-height: 1.125;
+	padding-bottom: 32px
+}
+
+.footer-item:nth-child(2){
+	padding: 0 15px 0 15px
+}
+
+.footer-item:nth-child(3){
+	display: flex;
+}
+
+.footer-item p{
+	padding-bottom: 32px
+}
+
+.footer-item-day{
+	padding-right: 10px
+}
+
+.footer-item-day p{
+	padding-bottom: 10px;
+	font-weight: 700;
+}
+
+.footer-item-time p{
+	padding-bottom: 10px
+}
+/* футер */
+
+/* classes */
+/* classes */
+.classes{
+	padding: 32px 0;
+}
+
+.classes-text{
+	width: 50%;
+	margin: 0 auto;
+	padding: 32px 0;
+}
+
+.classes-down p{
+	font-size: 24px;
+	line-height: 1.38889;
+	color: #303030;
+	text-align: left;
+}
+/* classes */
+
+/* yoga-pilates-barre */
+.ypb-items{
+	display: flex;
+}
+
+.ypb-item{
+	width: 30%;
+	margin: 30px;
+}
+/* yoga-pilates-barre */
+
+/* wp-block-gallery */
+.wp-block-gallery{
+	padding-bottom: 30px;
+}
+
+.tiled-gallery__items{
+	display: flex;
+}
+
+.tiled-gallery__item img{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/* wp-block-gallery */
+
+/* want to be */
+.is-layout-flow{
+	background-color: #f0f0f0;
+}
+
+.wp-block-group{
+	text-align: center;
+}
+
+.wp-block-group h2{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.wp-block-button{
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+
+.wp-block-button a{
+	color: #fff;
+    font-size: 0.83333rem;
+    background-color: #19744C;
+    border-radius: 4px;
+    border-width: 0;
+    text-decoration: none;
+    padding: 16px 16px;
+}	
+/* want to be */
+
+/* classes-footer */
+.site-info{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.site-info a{
+	color: black;
+	text-decoration: none;
+}
+/* classes-footer */
+/* classes */
+
+/* about */
+/* our_class */
+.our_class{
+	padding-bottom: 100px;
+}
+
+.our_class_items{
+	display: flex;
+}
+
+.our_class_item{
+	width: 40%;
+	margin-left: 30px;
+}
+
+.our_class_item p{
+	padding-bottom: 50px;
+}
+
+.our_class-button a{
+	color: #fff;
+    font-size: 0.83333rem;
+    background-color: #19744C;
+    border-radius: 4px;
+    border-width: 0;
+    text-decoration: none;
+    padding: 16px 16px;
+}
+/* our_class */
+/* about */
+
+/* contacts */
+/* footer-contacts */
+.footer-contacts{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.footer_cont-items{
+	display: flex;
+	padding-left: 200px;
+}
+
+.footer_cont-item{
+	margin-left: 30px;
+}
+
+.footer_cont-item:nth-child(1){
+	margin-right: 70px;
+}
+/* footer-contacts */
+/* contacts */
