@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    height: 100vh;
+    width: 100vw;
+}
+.app{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr;
+    &__header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: #636262;
+        a{
+            color: white;
+            font-size: 24px;
+            &:hover{
+                color: #73baf1;
+                text-decoration: underline;
+            }
+        }
+    }
+    &__main{
+        
+    }
+}
